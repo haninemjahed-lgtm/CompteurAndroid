@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mon compteur"
+                android:text="@string/titre_compteur"
                 android:textSize="18sp"
                 android:letterSpacing="0.1"
                 android:textColor="@color/text_light" />
@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="24dp"
-                android:text="0"
+                android:text="@string/valeur_initiale"
                 android:textSize="96sp"
                 android:textStyle="bold"
                 android:textColor="@color/text_dark" />
@@ -57,7 +57,7 @@
                     android:layout_height="64dp"
                     android:layout_weight="1"
                     android:layout_marginEnd="8dp"
-                    android:text="−"
+                    android:text="@string/bouton_moins"
                     android:textSize="28sp"
                     app:cornerRadius="20dp"
                     app:backgroundTint="@color/accent_minus" />
@@ -68,7 +68,7 @@
                     android:layout_height="64dp"
                     android:layout_weight="1"
                     android:layout_marginStart="8dp"
-                    android:text="+"
+                    android:text="@string/bouton_plus"
                     android:textSize="28sp"
                     app:cornerRadius="20dp"
                     app:backgroundTint="@color/accent_plus" />
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_marginTop="16dp"
-                android:text="Réinitialiser"
+                android:text="@string/bouton_reinitialiser"
                 android:textColor="@color/text_dark"
                 app:cornerRadius="20dp"
                 app:backgroundTint="@color/accent_reset" />
